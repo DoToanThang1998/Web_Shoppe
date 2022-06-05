@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./reset.css">
+     <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="./font/fontawesome-free-6.1.1-web/css/all.css">
+     <title>Shoppe Demo</title>
+</head>
+<body> 
+     <div class="main">
+         <header class="header">
+             <div class="grid">
+                 <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--saparate">
+                            Tới cửa hàng trên ứng dụng
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./image/QR/qr-code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./image//QR/Download_on_the_App_Store_Badge.svg.png" alt="App Store" class="header__qr-img-download">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./image//QR/app-store-android-download.png" alt="Google Play" class="header__qr-img-download">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item--no-pointer">Kết nối </span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                         <li class="header__navbar-item header__navbar-item--has-notify">
+                             <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                 Thông báo
+                                </a>
+                                <div class="header__notify">
+                                     <header class="header__notify-header">
+                                         <h3>Thông báo mới nhận được</h3>
+                                     </header>
+                                     <ul class="header__notify-list">
+                                         <li class="header__notify-item">
+                                           <a href="" class="header__notify-link">
+                                               <img src="./image/Notify/nuoc-hoa-versace.png" alt="none" class="header__notify-img">
+                                               <div class="header__notify-info">
+                                                   <span class="header__notify-name">Mẫu nước Hoa Versace Eros For Men EDT 100ml</span> 
+                                                   <div class="header__notify-desc">Thương hiệu nước hoa nổi tiếng đến từ Ý phiên bản đặc biệt dành riêng cho nam giới.</div>   
+                                               </div>
+                                           </a>
+                                         </li>
+                                         <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./image/Notify/nuoc-hoa-chanel-hong-3.jpg" alt="none" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mẫu nước hoa Chanel Chance Eau Vive EDT</span> 
+                                                    <div class="header__notify-desc">Hương nước hoa Pháp - tôn vinh phụ nữ hiện đại đã ra mắt mẫu sản phẩm mới trong tháng 6/2002.</div>   
+                                                </div>
+                                            </a>
+                                          </li>
+                                          <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./image/Notify/nuoc-hoa-d&g.png" alt="none" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mẫu nước Hoa D&G L’ imperatrice 3 Pour Femme</span> 
+                                                    <div class="header__notify-desc"> Nước Hoa D&G L’imperatrice 3 Pour Femme được giới thiệu vào tháng 9/2021</div>   
+                                                </div>
+                                            </a>
+                                          </li>
+                                          <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./image/Notify/nuoc-hoa-dior-nam.png" alt="none" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mẫu nước Hoa Dior Sauvage EDT Cho Nam 100ml XT322</span> 
+                                                    <div class="header__notify-desc">Khỏe Mạnh một chút và Phong Trần một chút thì nuoc hoa sauvage là VUA.</div>   
+                                                </div>
+                                            </a>
+                                          </li>
+                                          <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./image/Notify/nuoc-hoa-gucci.jpg" alt="none" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mẫu nước hoa Gucci Bloom Special Edition</span> 
+                                                    <div class="header__notify-desc">Bạn muốn có mùi hương nước hoa nữ nhẹ nhàng, nữ tính, đầy hương hoa thì Gucci Bloom sẽ là một sự lựa chọn tuyệt vời dành cho bạn.</div>   
+                                                </div>
+                                            </a>
+                                          </li>
+                                     </ul>
+                                     <footer class="header__notify-footer">
+                                         <a href="#" class="header__notify-btn">Xem tất cả </a>
+                                     </footer>
+                                </div>
+                         </li>
+                         <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                         </li>
+                         <li class="header__navbar-item header__navbar-item--strong header__navbar-item--saparate">Đăng ký</li>
+                         <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+                 </nav>
+                 <div class="header-with-search">
+                      <div class="header__logo">
+                          <a href="/" class="header__logo-link">      
+                              <img src="./image/Logo/logo-shoppe.png" alt="Logo-website" title="Logo của Website" 
+                               class="header__logo-img" >
+                          </a>
+                      </div>
+                       <div class="header__search">
+                           <div class="header__search-input-wrap">
+                               <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm .... ">
+                               <!-- Search History -->
+                               <div class="header__search-history">
+                                   <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                   <ul class="header__search-history-list">
+                                       <li class="header__search-history-list-item">
+                                           <a href="">Nước hoa Channel</a>
+                                       </li>
+                                        <li class="header__search-history-list-item">
+                                           <a href="">Giày Nike Air</a>
+                                       </li>
+                                       <li class="header__search-history-list-item">
+                                           <a href="">Đồng hồ Ogival</a>
+                                       </li>
+                                   </ul>
+                               </div>
+                            </div>
+                           <div class="header__search-select">
+                                <span class="header__search-select-label">Trong Shop</span>
+                                <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+                                 <ul class="header__search-option">
+                                     <li class="header__search-option-item header__search-option-item--active">
+                                         <span>Trong Shop</span>
+                                         <i class="header__search-option-item-icon fa-solid fa-check"></i>
+                                     </li>
+                                     <li class="header__search-option-item">
+                                         <span>Ngoài Shop</span> 
+                                         <i class="header__search-option-item-icon fa-solid fa-check"></i>
+                                     </li>
+                                 </ul>
+                            </div>
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                        <!-- Cart Layout-->
+                       <div class="header__cart">
+                           <div class="header__cart-wrap">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header__cart-notice">3</span>
+                                <!-- No cart -> Add: header__cart-list--no-cart -->
+                                <div class="header__cart-list ">
+                                     <div class="header__cart-img--no-cart ">    
+                                         <img src="./image/Cart/No cart/no-cart.png" alt="Chưa có sản phẩm" >
+                                     </div>
+                                     <span class="header__cart-mess--no-cart">
+                                        Chưa có sản phẩm
+                                     </span>
+                                     <h4 class="header__cart-list--heading">
+                                         Sản phẩm đã thêm
+                                    </h4>
+                                    <ul class="header__cart--list-items">
+                                        <!-- Cart items -->
+                                        <li class="header__cart-item">
+                                            <img src="./image/Cart/Item/iphone-13-gold-rose.jpg" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Iphone13 ProMax Gold-Rose Special edition </h5>  </h5>
+                                                    <span class="header__cart-item-price">30.999.9999đ</span> 
+                                                    <span class="header__cart-item-multiply">x</span> 
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">Phiên bản: Giới hạn - vàng hồng - 256G.</span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary">Xem giỏ hàng</button>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                 </div>
+             </div>
+         </header>
+         <div class="container">
+           
+         </div>
+         <footer class="footer">
+
+         </footer>
+          
+     </div>
+     <!-- Modal -->
+      <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+            <!-- Register Form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Số điện thoại hoặc Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                                <p class="auth-form__policy-text">
+                                    Vui lòng đọc kỹ
+                                    <a href="" class="auth-form__text-link">Điều khoản sử dụng</a> &
+                                    <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                                    trước khi sử dụng dịch vụ. <b>Cảm ơn quý khách.</b>
+                                </p>   
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    
+                    <div class="auth-form__socials">
+                            <a href="" class="auth-form__social-facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__social-icon fa-brands fa-facebook-square"></i>
+                               <span class="auth-form__social--title">
+                                   Kết nối đến Facebook
+                               </span> 
+                            </a>
+                            <a href="" class="auth-form__social-google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__social-icon fa-brands fa-google"></i>
+                                <span class="auth-form__social--title">
+                                    Kết nối đến Google
+                                </span>
+                        </a>
+                    </div>
+                </div> -->
+            <!-- Login Form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng nhập</h3>
+                            <span class="auth-form__switch-btn">Đăng ký</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="email" class="auth-form__input" placeholder="Số điện thoại hoặc Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                               <div class="auth-form__help">
+                                   <a href="" class="auth-form__help--link auth-form__help--forget">Quên mật khẩu</a>
+                                   <span class="auth-form__help-separated"></span>
+                                   <a href="" class="auth-form__help--link">Cần trợ giúp?</a>
+                               </div>  
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--normal auth-form__control-back">TRỞ LẠI</button>
+                            <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                    
+                    <div class="auth-form__socials">
+                            <a href="" class="auth-form__social-facebook btn btn--size-s btn--with-icon">
+                                <i class="auth-form__social-icon fa-brands fa-facebook-square"></i>
+                               <span class="auth-form__social--title">
+                                   Kết nối với Facebook
+                               </span> 
+                            </a>
+                            <a href="" class="auth-form__social-google btn btn--size-s btn--with-icon">
+                                <i class="auth-form__social-icon fa-brands fa-google"></i>
+                                <span class="auth-form__social--title">
+                                    Kết nối với Google
+                                </span>
+                             </a>
+                    </div>
+                </div>
+        </div>
+    </div> -->
+
+</body>
+</html>
