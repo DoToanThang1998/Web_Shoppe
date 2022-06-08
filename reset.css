@@ -15,6 +15,7 @@
    --app-container-color: #f5f5f5;
    --box-shadow: 0 2px #dbdbdb;
    --gold-star-color: #FFCE3E;
+   --sticker-color: rgba(255, 213, 44, 0.96);
 }
 /* Responsive */
 .grid {
@@ -156,6 +157,7 @@
 .select-input__list {
    left: 0;
    right: 0; 
+   z-index: 1;
    display: none;
    list-style: none;
    padding: 12px 16px;
@@ -181,7 +183,40 @@
    display: block;
    padding: 6px 0;
 }
-
 .select-input__item-link:hover {
    color: var(--primary-color);
+}
+
+/*  Pagination */
+.pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+.pagination-item {
+   padding: 0 12px;
+}
+.pagination-item--active .pagination-item__link {
+   background-color: var(--primary-color);
+   color: var(--color-white);
+}
+.pagination-item--active:hover .pagination-item__link {
+   background-color: #ed5c3f;
+}
+.pagination-item__link {
+   --height-pag: 30px;
+   display: block;
+   text-decoration: none;
+   font-weight: 300;
+   font-size: 2rem;
+   color: #939393;
+   min-width: 40px;
+   height: var(--height-pag);
+   line-height: var(--height-pag);
+   text-align: center;
+   border-radius: 2px;
+}
+.pagination-item__link-empty {
+   cursor: default;
 }
